@@ -52,7 +52,7 @@
   height: 40px;
   background: #4d5ae5;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: transform;
+  transition-property: background-color;
 }
 .social-footer-icon:hover,
 .social-footer-icon:focus {
