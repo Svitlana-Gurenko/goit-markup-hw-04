@@ -51,6 +51,10 @@ background: #4d5ae5;
 .social-icon-svg {
 color: #f4f4fd
 }
+.social:hover,
+.social:focus{
+  background-color: #404bbf;
+}
 .team-ill {
 }
 .team-caption {
