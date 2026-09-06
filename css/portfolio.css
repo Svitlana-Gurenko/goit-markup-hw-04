@@ -60,6 +60,8 @@
 }
 /* overlay styles*/
 .overlay {
+  letter-spacing: 0.02em;
+  font-weight: 400;
   transform: translateY(100%);
   position: absolute;
   padding: 40px 32px;
