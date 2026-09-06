@@ -44,6 +44,9 @@
   }
 
 .social-footer-icon {
+  
+}
+.social-link-footer{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,11 +55,13 @@
   height: 40px;
   color: #f4f4fd;
   background: #4d5ae5;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
-.social-footer-icon:hover,
-.social-footer-icon:focus {
+.social-link-footer:hover,
+.social-link-footer:focus {
   background-color: #31d0aa;
 }
 
